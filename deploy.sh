@@ -11,7 +11,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
+# deploy to gh-pages branch
 git push -f git@github.com:brown-a2/ox-athena.git master:gh-pages
 
 cd -
